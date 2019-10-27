@@ -22,7 +22,8 @@ CORE += \
 include ${BTSTACK_ROOT}/example/Makefile.inc
 
 # use (cross)compiler for Raspi
-CC = arm-linux-gnueabihf-gcc
+#CC = arm-linux-gnueabihf-gcc
+CC = gcc
 
 CFLAGS  += -g -Wall -Werror \
 	-I$(BTSTACK_ROOT)/platform/embedded \
